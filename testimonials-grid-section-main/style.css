@@ -1,0 +1,191 @@
+.grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  gap: 30px;
+}
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.im img {
+  position: relative;
+  bottom: 150px;
+  left: 450px;
+  width: 70px;
+  height: 90px;
+}
+.DanielClifford {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: -3;
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.DanielClifford img {
+  border-style: blueviolet;
+}
+.DanielClifford h4 {
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  bottom: 70px;
+  left: 60px;
+}
+.DanielClifford h5 {
+  color: hsl(0, 0%, 70%);
+  position: relative;
+  bottom: 90px;
+  left: 60px;
+}
+.DanielClifford h2 {
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  bottom: 200px;
+  align-items: start;
+}
+.DanielClifford p {
+  position: relative;
+  bottom: 200px;
+  color: hsl(0, 0%, 70%);
+}
+.JonathanWalters {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.JonathanWalters h4 {
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  bottom: 70px;
+  left: 60px;
+}
+.JonathanWalters h5 {
+  color: hsl(0, 0%, 70%);
+  position: relative;
+  bottom: 90px;
+  left: 60px;
+}
+.JonathanWalters h2 {
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  bottom: 90px;
+  align-items: start;
+}
+.JonathanWalters p {
+  position: relative;
+  bottom: 90px;
+  color: hsl(0, 0%, 70%);
+}
+
+.JeanetteHarmon {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  background-color: rgb(216, 192, 192);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.JeanetteHarmon h4 {
+  color: hsl(217, 19%, 35%);
+  position: relative;
+  bottom: 70px;
+  left: 60px;
+}
+.JeanetteHarmon h5 {
+  color: hsl(0, 0%, 70%);
+  position: relative;
+  bottom: 90px;
+  left: 60px;
+}
+.JeanetteHarmon h2 {
+  color: hsl(217, 19%, 35%);
+  position: relative;
+  bottom: 90px;
+  align-items: start;
+}
+.JeanetteHarmon p {
+  position: relative;
+  bottom: 90px;
+  color: hsl(217, 19%, 35%);
+}
+.PatrickAbrams {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-column-end: -2;
+  border-radius: 20px;
+  background-color: hsl(219, 29%, 14%);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border-style: blueviolet;
+}
+.PatrickAbrams h4 {
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  bottom: 70px;
+  left: 60px;
+}
+.PatrickAbrams h5 {
+  color: hsl(0, 0%, 70%);
+  position: relative;
+  bottom: 90px;
+  left: 60px;
+}
+.PatrickAbrams h2 {
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  bottom: 90px;
+  align-items: start;
+}
+.PatrickAbrams p {
+  position: relative;
+  bottom: 90px;
+  color: hsl(0, 0%, 70%);
+}
+.KiraWhittle {
+  grid-column-start: 4;
+  grid-row-start: 4;
+  grid-row-end: -4;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.KiraWhittle h4 {
+  color: hsl(217, 19%, 35%);
+  position: relative;
+  bottom: 70px;
+  left: 60px;
+}
+.KiraWhittle h5 {
+  color: hsl(0, 0%, 70%);
+  position: relative;
+  bottom: 90px;
+  left: 60px;
+}
+.KiraWhittle h2 {
+  color: hsl(217, 19%, 35%);
+  position: relative;
+  bottom: 90px;
+  align-items: start;
+}
+.KiraWhittle p {
+  position: relative;
+  bottom: 90px;
+  color: hsl(217, 19%, 35%);
+}
+body {
+  padding-left: 100px;
+  padding-right: 200px;
+  padding-top: 100px;
+}
